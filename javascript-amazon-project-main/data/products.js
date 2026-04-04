@@ -72,6 +72,9 @@ export function loadProductsFetch() {
       });
 
       console.log("Load Products");
+    })
+    .catch((error) => {
+      console.log("Error loading products. Please try again later.");
     });
   return promise;
 
@@ -94,8 +97,11 @@ export function loadProducts(fun) {
     });
 
     console.log("Load Products");
-
     fun();
+  });
+
+  xhr.addEventListener("error", (error) => {
+    console.log("Error loading products. PLease try again later.");
   });
 
   xhr.open("GET", "https://supersimplebackend.dev/products");

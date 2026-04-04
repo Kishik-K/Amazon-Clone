@@ -7,13 +7,17 @@ import { loadCart } from "../data/cart.js";
 // import '../data/backend-practics.js';
 
 async function loadPage() {
-  await loadProductsFetch();
+  try {
+    await loadProductsFetch();
 
-  await new Promise((resolve) => {
-    loadCart(() => {
-      resolve();
+    const value = await new Promise((resolve) => {
+      loadCart(() => {
+        resolve("value3");
+      });
     });
-  });
+  } catch (error) {
+    console.log("Error loading products. PLease try again later.");
+  }
 
   renderCheckoutHeader();
   renderOrderSummary();
