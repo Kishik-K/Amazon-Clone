@@ -35,9 +35,8 @@ async function loadPage() {
         </div>
       </div>
     `;
-    document.querySelector(".cart-quantity").innerHTML =
-      calculateCartQuantity();
   });
+  document.querySelector(".cart-quantity").innerHTML = calculateCartQuantity();
 
   function productsListHTML(order) {
     let productsListHTML = "";
