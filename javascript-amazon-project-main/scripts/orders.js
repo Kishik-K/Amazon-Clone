@@ -78,7 +78,18 @@ async function loadPage() {
     return productsListHTML;
   }
 
-  document.querySelector(".js-orders-grid").innerHTML = ordersHTML;
+  document.querySelector(".js-orders-grid").innerHTML =
+    ordersHTML ||
+    `
+    <div style="
+      text-align: center;
+      padding: 70px 0;
+      color: #1a1717;
+      font-size: 22px;
+    ">
+      No orders yet. Go buy something! 🛒
+    </div>
+  `;
   document.querySelectorAll(".js-buy-again").forEach((button) => {
     button.addEventListener("click", () => {
       addToCart(button.dataset.productId);
