@@ -121,3 +121,7 @@ Built from scratch as part of a self-directed full stack learning journey.
 ---
 
 *This is a learning project built for educational purposes. Amazon branding and assets belong to Amazon.com, Inc.*
+
+## Backend
+
+Product data, cart, and order API provided by [SuperSimpleBackend](https://supersimplebackend.dev/) — a learning-focused backend built for projects like this.
