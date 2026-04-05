@@ -1,4 +1,4 @@
-# Amazon Clone 🛒
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f5d11f72-9af1-4e16-abd0-98bb199980a5" /># Amazon Clone 🛒
 
 A fully functional Amazon-inspired e-commerce web app built with vanilla JavaScript. No frameworks. No shortcuts. Just raw JS doing real work.
 
@@ -8,22 +8,13 @@ A fully functional Amazon-inspired e-commerce web app built with vanilla JavaScr
 
 ## Screenshots
 
-**Main Page**
-![Main Page](<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/14be957c-acd1-4214-a547-8a160fcd1ee6" />
-)
+| Main Page | Checkout |
+|-----------|----------|
+| <img width="400" alt="Main Page" src="https://github.com/user-attachments/assets/14be957c-acd1-4214-a547-8a160fcd1ee6" /> | <img width="400" alt="Checkout" src="https://github.com/user-attachments/assets/afcb2ad6-e8a5-451a-bc64-b453ef62b742" /> |
 
-**Checkout**
-![Checkout](<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/afcb2ad6-e8a5-451a-bc64-b453ef62b742" />
-)
-
-**Orders**
-![Orders](<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/77832848-804b-44e9-8825-a10a875ccf2b" />
-)
-
-**Tracking**
-![Tracking](<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ec8d980a-9b83-4673-adcc-f3db14077cc9" />
-
-)
+| Orders | Tracking |
+|--------|----------|
+| <img width="400" alt="Orders" src="https://github.com/user-attachments/assets/77832848-804b-44e9-8825-a10a875ccf2b" /> | <img width="400" alt="Tracking" src="https://github.com/user-attachments/assets/ec8d980a-9b83-4673-adcc-f3db14077cc9" /> |
 ---
 
 ## Features
